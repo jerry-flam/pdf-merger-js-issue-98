@@ -1,0 +1,14 @@
+{
+  "name": "pdf-merger-js-issue-88",
+  "version": "1.0.0",
+  "description": "Showcases Error: Input document to PDFDocument.load is encrypted",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start:no-loop": "node src/no-loop.js"
+  },
+  "dependencies": {
+    "glob": "^8.0.3",
+    "pdf-merger-js": "^4.1.0"
+  }
+}
